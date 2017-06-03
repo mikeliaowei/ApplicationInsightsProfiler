@@ -41,12 +41,12 @@ $apiVersion = "2016-08-01"
 $properties = @{}
 if($slotName -eq "production")
 {
-    $resourceName = "$appName/Microsoft.ApplicationInsights.Profiler.AzureWebApps"
+    $resourceName = "$appName/Microsoft.ApplicationInsights.AzureWebSites"
     $resourceType = "Microsoft.Web/sites/siteextensions"
 }
 else 
 {
-    $resourceName = "$appName/$slotName/Microsoft.ApplicationInsights.Profiler.AzureWebApps"
+    $resourceName = "$appName/$slotName/Microsoft.ApplicationInsights.AzureWebSites"
     $resourceType = "Microsoft.Web/sites/slots/siteextensions"
 }
 
