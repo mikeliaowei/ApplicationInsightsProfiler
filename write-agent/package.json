@@ -1,0 +1,18 @@
+{
+  "name": "write-agent",
+  "private": true,
+  "type": "module",
+  "description": "Writing assistant: draft, edit, rewrite, and save named drafts",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "dev": "bdk dev"
+  },
+  "dependencies": {
+    "@cursor/bdk": "^0.2.21",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "6.0.3"
+  }
+}
